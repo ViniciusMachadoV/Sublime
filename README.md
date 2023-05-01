@@ -22,14 +22,14 @@ Sempre avise no grupo ao realizar `push` dos commits ou ao criar um Pull Request
 
 ## Páginas do Projeto
 
-- [] Home
-- [] Feminino
-- [] Masculino
-- [] Bolsas
-- [] Outlet
-- [] Lookbook
-- [] Carrinho
-- [] Checkout
+- [ ] Home
+- [ ] Feminino
+- [ ] Masculino
+- [ ] Bolsas
+- [ ] Outlet
+- [ ] Lookbook
+- [ ] Carrinho
+- [ ] Checkout
 
 ### Conteúdo das Páginas
 
