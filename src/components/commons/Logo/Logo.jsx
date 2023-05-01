@@ -4,7 +4,7 @@ function Logo() {
   return (
     <Link
       to="/"
-      className="d-inline-flex link-body-emphasis text-decoration-none"
+      className="fs-5 d-inline-flex link-body-emphasis text-decoration-none"
     >
       Sublime
     </Link>
