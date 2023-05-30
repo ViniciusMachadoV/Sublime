@@ -1,0 +1,90 @@
+@import "bootstrap";
+
+$color-lighter: #f0eae4;
+$color-light: #b28059;
+$color-main: #7e5a3d;
+$color-dark: #402f23;
+$color-darker: #25221f;
+
+body {
+  color: var(--color-darker);
+  background-color: var(--color-lighter);
+
+  font-family: var(--font-family-sans);
+}
+
+/*
+
+Lista de parâmetros da função `button-variant`
+
+@include button-variant(
+  1 - background-color,
+  2 - border-color,
+  3 - color,
+  4 - background-color:hover,
+  5 - border-color:hover,
+  6 - color:hover,
+  7 - background-color:active,
+  8 - border-color:active,
+  9 - color:active,
+);
+
+*/
+
+.btn-primary {
+  @include button-variant(
+    /* 1 */ $color-main,
+    /* 2 */ $color-main,
+    /* 3 */ $color-lighter,
+    /* 4 */ lighten($color-main, 5%),
+    /* 5 */ lighten($color-main, 10%),
+    /* 6 */ $color-lighter
+  );
+}
+
+.btn-outline-primary {
+  @include button-outline-variant(
+    /* 1 */ $color-main,
+    /* 2 */ #222222,
+    /* 3 */ lighten($color-main, 5%),
+    /* 4 */ $color-main
+  );
+}
+
+.btn-light {
+  @include button-variant(
+    /* 1 */ $color-lighter,
+    /* 2 */ transparent,
+    /* 3 */ $color-main,
+    /* 4 */ darken($color-lighter, 15%),
+    /* 5 */ darken($color-lighter, 15%),
+    /* 6 */ darken($color-main, 5%),
+    /* 7 */ darken($color-light, 15%),
+    /* 8 */ transparent,
+    /* 9 */ $color-darker
+  );
+}
+
+.btn-outline-light {
+  @include button-outline-variant(
+    /* 1 */ $color-main,
+    /* 2 */ #222222,
+    /* 3 */ lighten($color-main, 5%),
+    /* 4 */ $color-main
+  );
+}
+
+a,
+.nav-link {
+  color: $color-main;
+}
+
+a:hover,
+.nav-link:hover {
+  color: $color-dark;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: $color-darker;
+}
