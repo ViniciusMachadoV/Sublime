@@ -1,8 +1,26 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+
+html {
+  --color-lighter: #f0eae4;
+  --color-light: #b28059;
+  --color-main: #7e5a3d;
+  --color-dark: #402f23;
+  --color-darker: #25221f;
+
+  --font-family-logo: "Dream Avenue", "Lora", Times, ui-serif, serif;
+  --font-family-serif: "Lora", Times, ui-serif, serif;
+  --font-family-sans: "Lato", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+}
+
 #root {
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
   min-height: 100vh;
+
+  font-family: var(--font-family-sans);
 }
 
 main {
