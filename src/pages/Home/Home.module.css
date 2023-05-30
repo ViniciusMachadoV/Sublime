@@ -1,12 +1,12 @@
 .tituloHome {
-  color: #000;
+  color: var(--color-darker);
   font-size: 5.6rem;
   line-height: 1.12;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-family-serif);
 }
 
 .subtituloHome {
-  color: #000;
+  color: var(--color-darker);
   max-width: 25ch;
   font-size: 1.5rem;
   line-height: 1.2;
