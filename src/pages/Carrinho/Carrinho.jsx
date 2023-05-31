@@ -4,7 +4,7 @@ function Carrinho() {
   return (
     <section className="container h-full d-flex justify-content-between">
       <div className="col-md-7">
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col">Imagem</th>
@@ -51,7 +51,7 @@ function Carrinho() {
       </div>
 
       <aside className="col-md-4 h-100">
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col" colSpan={2}>

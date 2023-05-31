@@ -42,7 +42,7 @@ function Lookbook() {
             type="button"
             data-bs-target="#lookbookCarousel"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           />
