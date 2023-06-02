@@ -4,7 +4,7 @@ import Logo from "../../commons/Logo/Logo";
 
 function Header() {
   return (
-    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-5 mb-4 border-bottom">
+    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 px-5 mb-4">
       <div className="col-md-3 mb-2 mb-md-0">
         <Logo />
       </div>
@@ -12,43 +12,19 @@ function Header() {
       <nav>
         <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
-            <Link className="nav-link px-2" to="/feminino"></Link>
+            <Link className="nav-link px-2" to="/feminino">
+              Feminino
+            </Link>
           </li>
           <li>
-            <Link className="nav-link px-2" to="/masculino"></Link>
+            <Link className="nav-link px-2" to="/masculino">
+              Masculino
+            </Link>
           </li>
           <li>
-            <Link className="nav-link px-2" to="/bolsas"></Link>
-          </li>
-          <li>
-            <div class="dropdown">
-              <button
-                class="btn btn-light dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categorias
-              </button>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <Link class="dropdown-item" to="/feminino">
-                    Feminino
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" to="/masculino">
-                    Masculino
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" to="/bolsas">
-                    Bolsas
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <Link className="nav-link px-2" to="/bolsas">
+              Bolsas
+            </Link>
           </li>
           <li>
             <Link className="nav-link px-2" to="/outlet">
@@ -67,11 +43,19 @@ function Header() {
 
       <div className="col-md-3 text-end">
         <Link
-          className="btn btn-primary d-inline-flex align-items-center"
-          to="/carrinho"
+          className="btn btn-light d-inline-flex align-items-center"
+          to="#"
+          title="Buscar"
         >
-          <i class="bi bi-basket2 me-2" />
-          Carrinho
+          <i class="bi bi-search" />
+        </Link>
+
+        <Link
+          className="btn btn-light d-inline-flex align-items-center"
+          to="/carrinho"
+          title="Carrinho"
+        >
+          <i class="bi bi-basket2" />
         </Link>
       </div>
     </header>
