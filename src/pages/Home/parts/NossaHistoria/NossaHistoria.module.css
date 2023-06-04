@@ -1,0 +1,39 @@
+.nossaHistoriaContainer {
+    
+}
+
+.nossaHistoriaText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 600px;
+    width: 400px;
+    top: 300px;
+}
+
+.nossaHistoriaTitle{
+    color: var(--color-dark);
+    font-family: var(--font-family-serif);
+    font-size: 45px;
+}
+
+.nossaHistoriaContent{
+    color: var(--color-dark);
+    font-family: var(--font-family-sans);
+    font-size: 16px;
+}
+
+.nossaHistoriaImages{
+}
+
+.nossaHistoriaVerticalPic{
+    width: 500px;
+}
+
+.nossaHistoriaHorizontalPic {
+    width: 500px;
+    position: relative;
+    bottom: 390px;
+    left: 460px;
+}
