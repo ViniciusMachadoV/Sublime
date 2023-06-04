@@ -6,7 +6,7 @@ function ProductCard(props){
             <div className={styles.productCardImgContainer}>
                 <img
                 className={styles.productCardImage}
-                src='./assets/productcardimage.jpg'
+                src={props.image}
                 alt={props.name}
                 />
                 <button className={styles.productCardButton}>Adicionar ao Carrinho</button>
