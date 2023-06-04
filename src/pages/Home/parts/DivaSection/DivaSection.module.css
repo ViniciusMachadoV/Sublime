@@ -1,0 +1,53 @@
+.tituloHome {
+    color: var(--color-main);
+    font-size: 5.6rem;
+    line-height: 1.12;
+    font-family: var(--font-family-logo);
+    font-weight: 400;
+  }
+  
+  .subtituloHome {
+    color: var(--color-main);
+    font-family: var(--font-family-sans);
+    font-weight: 300;
+    max-width: 12ch;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  .imagemCoverHome {
+    height: 360px;
+    position: absolute;
+    right: 520px;
+    bottom: 100px;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .horizontalCoverImage {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 450px;
+    bottom: 430px;
+  }
+
+  .verticalCoverImage{
+    height: 700px;
+    width: 1000px;
+    object-fit: cover;
+    margin-left: 100px;
+  }
+
+  .divaSectionImages {
+    display: flex;
+    position: relative;
+    
+  }
