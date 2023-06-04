@@ -1,0 +1,18 @@
+.newPiecesList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.25rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.newPiecesListNoCard {
+    width: 300px;
+    color: var(--color-dark);
+    font-family: var(--font-family-sans);
+}
+
+.newPiecesListNoCardTitle{
+    font-size: 50px;
+    font-family: var(--font-family-serif);
+}
