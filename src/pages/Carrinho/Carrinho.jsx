@@ -17,7 +17,7 @@ function Carrinho() {
               <th scope="row" className="w-25">
                 <img
                   className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
+                  src="/assets/productcardimage.jpg"
                   alt="Nome do Produto"
                 />
               </th>
@@ -28,7 +28,7 @@ function Carrinho() {
               <th scope="row" className="w-25">
                 <img
                   className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
+                  src="/assets/productcardimage.jpg"
                   alt="Nome do Produto 2"
                 />
               </th>
@@ -39,7 +39,7 @@ function Carrinho() {
               <th scope="row" className="w-25">
                 <img
                   className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
+                  src="/assets/productcardimage.jpg"
                   alt="Nome do Produto 3"
                 />
               </th>
