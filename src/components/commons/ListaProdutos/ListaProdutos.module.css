@@ -1,5 +1,4 @@
-.imagemProduto {
-  height: 280px;
-  object-fit: cover;
-  object-position: center center;
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
