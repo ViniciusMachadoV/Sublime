@@ -7,7 +7,7 @@ function ListaProdutos(props) {
     <section className={`mt-5 gx-5 mx-auto ${styles.productsList}`}>
       {props.produtos.map((produto) => (
         <>
-          <div className="col-lg-5 col-md-4 col-sm-6 mb-5">
+          <div className="mx-auto">
             <ProductCard
               image={produto.img}
               name={produto.nome}
