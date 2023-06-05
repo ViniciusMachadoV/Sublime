@@ -6,15 +6,13 @@ export function MobileNav(props) {
   return (
     <>
       <div class={`dropdown ${props.className}`}>
-        <a
+        <button
           className="btn btn-primary dropdown-toggle"
-          href="#"
-          role="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
           Menu
-        </a>
+        </button>
 
         <ul class="dropdown-menu">
           <li>

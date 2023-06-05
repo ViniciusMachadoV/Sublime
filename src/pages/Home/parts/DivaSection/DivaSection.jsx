@@ -15,7 +15,7 @@ function DivaSection() {
       <div className={`col-md-6 ${styles.divaSectionImages}`}>
         <img
           className={styles.imagemCoverHome}
-          src="/assets/productcardimage.jpg"
+          src="/assets/cover-1.jpg"
           alt="Modelo com cabelo curto e óculos de sol preto no rosto olhando na diagonal para baixo, usando uma blusa branca e com um paletó marrom vestido em apenas um dos braços"
         />
         <img
