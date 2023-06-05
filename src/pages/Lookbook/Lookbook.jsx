@@ -1,4 +1,5 @@
 import estilo from "./Lookbook.module.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Lookbook() {
   return (
@@ -27,15 +28,115 @@ function Lookbook() {
             </div>
           </div>
         </div>
-        <div className={estilo["magazine"]}>
+        {/* <div className={estilo["magazine"]}>
+
           <div className={estilo["amostra1"]}></div>
           <div className={estilo["amostra2"]}></div>
           <div className={estilo["amostra3"]}></div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ducimus
-          ullam quae voluptatem aut odit at veniam nisi, facilis, distinctio
-          enim quos architecto consectetur unde voluptatum blanditiis ea vitae
-          ab!
+          <div id="carouselExample" className="carousel slide">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src="..." className="d-block w-100" alt="..." />
+            </div>
+            <div className="carousel-item">
+              <img src="..." className="d-block w-100" alt="..." />
+            </div>
+            <div className="carousel-item">
+              <img src="..." className="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
+        </div> */}
+        <div id="lookbookCarousel" className="carousel slide w-75 my-5 mx-auto">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#lookbookCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          />
+          <button
+            type="button"
+            data-bs-target="#lookbookCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          />
+          <button
+            type="button"
+            data-bs-target="#lookbookCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          />
+          <button
+            type="button"
+            data-bs-target="#lookbookCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          />
+        </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              src="/assets/mod1.png"
+              className="d-block w-100 object-fit-cover"
+              style={{ height: 600 }}
+              alt="Foto do Lookbook"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/assets/mod2.png"
+              className="d-block w-100 object-fit-cover"
+              style={{ height: 600 }}
+              alt="Foto do Lookbook"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/assets/mod3.png"
+              className="d-block w-100 object-fit-cover"
+              style={{ height: 600 }}
+              alt="Foto do Lookbook"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/assets/mod4.png"
+              className="d-block w-100 object-fit-cover"
+              style={{ height: 600 }}
+              alt="Foto do Lookbook"
+            />
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#lookbookCarousel"
+          data-bs-slide="prev"
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#lookbookCarousel"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
       </div>
     </section>
   );
