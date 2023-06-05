@@ -1,11 +1,40 @@
 import TituloPagina from "../../components/commons/TituloPagina/TituloPagina";
-
+import estilo from './Lookbook.module.css'
 function Lookbook() {
   return (
+    
     <section className="container">
       <TituloPagina nome="Lookbook" />
-
-      <div id="lookbookCarousel" className="carousel slide w-75 my-5 mx-auto">
+      <div className={estilo["menu"]}>
+        <div className={estilo["container"]}>
+          <div className={estilo["book"]}>
+            <div className={estilo["front"]}>
+              <div className={estilo["cover"]}>
+                {/* <img className={estilo['capa']} width="100%" src='assets/lookbookcover2.jpg' alt="teste" /> */}
+                <p className={estilo["title"]}>SUBLIME</p>
+                <p className={estilo["num-up"]}>
+                  23
+                </p>
+                <p className={estilo["num-down"]}>Primavera</p>
+                <p className={estilo["author"]}>Designed by: Vinícius Machado</p>
+              </div>
+            </div>
+            <div className={estilo["left-side"]}>
+              <h2>
+                <span>Primavera</span>
+                <span>Sublime</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div className={estilo['magazine']}>
+          <div className={estilo["amostra1"]}></div>
+          <div className={estilo["amostra2"]}></div>
+          <div className={estilo["amostra3"]}></div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ducimus ullam quae voluptatem aut odit at veniam nisi, facilis, distinctio enim quos architecto consectetur unde voluptatum blanditiis ea vitae ab!
+        </div>
+      </div>
+      {/* <div id="lookbookCarousel" className="carousel slide w-75 my-5 mx-auto">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -89,7 +118,7 @@ function Lookbook() {
           <span className="carousel-control-next-icon" aria-hidden="true" />
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }
