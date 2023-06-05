@@ -29,6 +29,26 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }
+
+  @media screen and (max-width:1400px){
+    .imagemCoverHome{
+      height: 320px;
+      position: absolute;
+      right: 320px;
+      bottom: 110px;
+    }
+    
+  }
+
+  @media screen and (max-width:1000px){
+    .imagemCoverHome{
+      height: 220px;
+      position: absolute;
+      right: 220px;
+      bottom: 200px;
+    }
+    
+  }
   
   .horizontalCoverImage {
     height: 220px;
@@ -37,6 +57,27 @@
     position: absolute;
     right: 450px;
     bottom: 430px;
+  }
+
+  @media screen and (max-width:1400px){
+    .horizontalCoverImage {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      position: absolute;
+      right: 280px;
+      bottom: 430px;
+    }
+  }
+
+  @media screen and (max-width:1000px){
+    .horizontalCoverImage{
+      height: 150px;
+      position: absolute;
+      right: 200px;
+      bottom: 400px;
+    }
+    
   }
 
   .verticalCoverImage{
@@ -49,5 +90,6 @@
   .divaSectionImages {
     display: flex;
     position: relative;
+    
     
   }
