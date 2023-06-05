@@ -4,6 +4,9 @@
     background: whitesmoke;
     position: relative;
 }
+#lookbookCarousel{
+    width: 300px;
+}
 .amostra1{
     position: absolute;
     width: 100px;
