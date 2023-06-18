@@ -4,6 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 
+import { SearchContextProvider } from "./infra/contexts/SearchContext";
+
 import "./styles/index.css";
 
 import "./styles/sublime-boostrap.scss";
@@ -12,7 +14,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <SearchContextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </SearchContextProvider>
 );

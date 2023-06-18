@@ -35,6 +35,10 @@ class ProductsRepository extends Repository {
       Object.assign(queryParams, search);
     }
 
+    if (search != null && typeof search === "string") {
+      Object.assign(queryParams, { q: search });
+    }
+
     const response = await this.httpRequest.get(
       `/${this.category}`,
       queryParams

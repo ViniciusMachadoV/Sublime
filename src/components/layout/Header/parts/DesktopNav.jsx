@@ -40,7 +40,7 @@ export function DesktopNav(props) {
       <div className={`col-md-3 text-end ${props.className}`}>
         <Link
           className="btn btn-light d-inline-flex align-items-center"
-          to="#"
+          to="/buscar"
           title="Buscar"
         >
           <i class="bi bi-search" />
