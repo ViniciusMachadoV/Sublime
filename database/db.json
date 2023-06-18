@@ -1,0 +1,394 @@
+{
+  "feminine": [
+    {
+      "id": 1,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 2,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 3,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 4,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 5,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 6,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 7,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 8,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 9,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 10,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 11,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 12,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 13,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 14,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 15,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 16,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    }
+  ],
+  "masculine": [
+    {
+      "id": 1,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 2,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 3,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 4,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 5,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 6,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 7,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 8,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 9,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 10,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 11,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 12,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 13,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 14,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 15,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 16,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    }
+  ],
+  "bags": [
+    {
+      "id": 1,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 2,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 3,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 4,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 5,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 6,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 7,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 8,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 9,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 10,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 11,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 12,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 13,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 14,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 15,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 16,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    }
+  ],
+  "outlet": [
+    {
+      "id": 1,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 2,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 3,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 4,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 5,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 6,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 7,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 8,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 9,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-1.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 10,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 11,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 12,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-3.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 13,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 14,
+      "nome": "Nome do Produto",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 15,
+      "nome": "Nome do Produto",
+      "img": "/assets/product-card-2.jpg",
+      "preco": 4200
+    },
+    {
+      "id": 16,
+      "nome": "Nome do Produto",
+      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "preco": 4200
+    }
+  ]
+}

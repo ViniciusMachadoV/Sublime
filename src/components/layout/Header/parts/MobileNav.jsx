@@ -63,7 +63,7 @@ export function MobileNav(props) {
           <li className="d-flex text-end justify-content-around">
             <Link
               className="btn btn-light d-inline-flex align-items-center"
-              to="#"
+              to="/buscar"
               title="Buscar"
             >
               <i class="bi bi-search" />
