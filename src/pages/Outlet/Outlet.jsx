@@ -7,6 +7,7 @@ import { ProductsPage } from "../../components/layout/ProductsPage/ProductsPage"
 import { Loader } from "../../components/commons/Loader/Loader";
 import ListaProdutos from "../../components/commons/ListaProdutos/ListaProdutos";
 import { ProductsHeroSection } from "../../components/commons/ProductsHeroSection/ProductsHeroSection";
+import Temporizador from "../../components/commons/ContagemRegressiva/Timer.jsx";
 
 function Outlet() {
   const { data: produtos, isFetching } = useFetch(() =>
@@ -17,7 +18,7 @@ function Outlet() {
     <ProductsPage header={<ProductsHeroSection title="Outlet" />}>
       <div>
         <span className="fs-5">Oferta acaba em: </span>
-        <span className="fs-3">10:23:12</span>
+        <span className="fs-4">{<Temporizador/>} minutos</span>
       </div>
 
       {isFetching ? <Loader /> : <ListaProdutos produtos={produtos ?? []} />}
