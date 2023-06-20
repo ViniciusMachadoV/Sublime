@@ -5,18 +5,21 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 import { SearchContextProvider } from "./infra/contexts/SearchContext";
-
-import "./styles/index.css";
+import { ThemeContextProvider } from "./infra/contexts/ThemeContext";
 
 import "./styles/sublime-boostrap.scss";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import "./styles/index.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <SearchContextProvider>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </SearchContextProvider>
+  <ThemeContextProvider>
+    <SearchContextProvider >
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </SearchContextProvider>
+  </ThemeContextProvider>
 );

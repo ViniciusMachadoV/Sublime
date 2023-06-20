@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import styles from "../Header.module.css";
+import ThemeSelector from "../../../commons/ThemeSelector/ThemeSelector";
 
 export function DesktopNav(props) {
   return (
@@ -33,13 +34,12 @@ export function DesktopNav(props) {
             </Link>
           </li>
 
-          <li></li>
         </ul>
       </nav>
 
-      <div className={`col-md-3 text-end ${props.className}`}>
+      <div className={`col-md-3 justify-content-end text-end ${props.className}`}>
         <Link
-          className="btn btn-light d-inline-flex align-items-center"
+          className="btn btn-light mx-1 d-inline-flex align-items-center justify-content-center"
           to="/buscar"
           title="Buscar"
         >
@@ -47,12 +47,14 @@ export function DesktopNav(props) {
         </Link>
 
         <Link
-          className="btn btn-light d-inline-flex align-items-center"
+          className="btn btn-light mx-1 d-inline-flex align-items-center justify-content-center"
           to="/carrinho"
           title="Carrinho"
         >
           <i class="bi bi-basket2" />
         </Link>
+        
+        <ThemeSelector/>
       </div>
     </>
   );

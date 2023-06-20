@@ -7,6 +7,7 @@ import NossaHistoria from "./parts/NossaHistoria/NossaHistoria";
 function Home() {
   return (
     <section className="container">
+
       <DivaSection />
 
       <div className={styles.spacer}></div>

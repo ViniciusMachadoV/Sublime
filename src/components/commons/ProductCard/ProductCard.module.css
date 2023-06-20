@@ -2,6 +2,19 @@
   width: 300px;
 }
 
+#summer {
+  --color-lighter: #f0e4e4;
+  --color-light: #b25959;
+  --color-main: #7e3d3d;
+  --color-dark: #402323;
+  --color-darker: #251f1f;
+
+  --font-family-logo: "Dream Avenue", "Lora", Times, ui-serif, serif;
+  --font-family-serif: "Lora", Times, ui-serif, serif;
+  --font-family-sans: "Lato", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+}
+
 .productCardImgContainer {
   display: flex;
   justify-content: center;
