@@ -122,8 +122,11 @@ a:not(.btn):hover,
   }
 }
 
-a:focus, .nav-link:focus {
-  color: $color-darker;
+a:not(.btn):focus,
+.nav-link:focus {
+  @include themify($theme-colors) using ($colors) {
+    color: map-get($colors, "darker");
+  }
 }
 
 .nav-tabs .nav-link.active,
