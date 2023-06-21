@@ -33,17 +33,18 @@ export function DesktopNav(props) {
               Lookbook
             </Link>
           </li>
-
         </ul>
       </nav>
 
-      <div className={`col-md-3 justify-content-end text-end ${props.className}`}>
+      <div
+        className={`col-md-3 justify-content-end text-end ${props.className}`}
+      >
         <Link
           className="btn btn-light mx-1 d-inline-flex align-items-center justify-content-center"
           to="/buscar"
           title="Buscar"
         >
-          <i class="bi bi-search" />
+          <i className="bi bi-search" />
         </Link>
 
         <Link
@@ -51,10 +52,10 @@ export function DesktopNav(props) {
           to="/carrinho"
           title="Carrinho"
         >
-          <i class="bi bi-basket2" />
+          <i className="bi bi-basket2" />
         </Link>
-        
-        <ThemeSelector/>
+
+        <ThemeSelector />
       </div>
     </>
   );

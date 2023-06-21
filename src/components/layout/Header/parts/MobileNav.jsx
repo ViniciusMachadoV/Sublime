@@ -5,7 +5,7 @@ import styles from "../Header.module.css";
 export function MobileNav(props) {
   return (
     <>
-      <div class={`dropdown ${props.className}`}>
+      <div className={`dropdown ${props.className}`}>
         <button
           className="btn btn-primary dropdown-toggle"
           data-bs-toggle="dropdown"
@@ -14,7 +14,7 @@ export function MobileNav(props) {
           Menu
         </button>
 
-        <ul class="dropdown-menu">
+        <ul className="dropdown-menu">
           <li>
             <Link
               className={`dropdown-item nav-link px-3 ${styles.navLink}`}
@@ -57,7 +57,7 @@ export function MobileNav(props) {
           </li>
 
           <li>
-            <hr class="dropdown-divider" />
+            <hr className="dropdown-divider" />
           </li>
 
           <li className="d-flex text-end justify-content-around">
@@ -66,14 +66,14 @@ export function MobileNav(props) {
               to="/buscar"
               title="Buscar"
             >
-              <i class="bi bi-search" />
+              <i className="bi bi-search" />
             </Link>
             <Link
               className="btn btn-light d-inline-flex align-items-center"
               to="/carrinho"
               title="Carrinho"
             >
-              <i class="bi bi-basket2" />
+              <i className="bi bi-basket2" />
             </Link>{" "}
           </li>
         </ul>

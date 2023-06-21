@@ -1,7 +1,6 @@
 import styles from "./ProductCard.module.css";
 
 function ProductCard(props) {
-
   return (
     <section className={styles.productContainer}>
       <div className={styles.productCardImgContainer}>
@@ -15,7 +14,7 @@ function ProductCard(props) {
         </button>
       </div>
       <div className={styles.productCardInfo}>
-        <stron className={styles.productCardName}>{props.name}</stron>
+        <strong className={styles.productCardName}>{props.name}</strong>
         <span className={styles.productCardPrice}>{props.price} €</span>
       </div>
     </section>

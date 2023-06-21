@@ -1,12 +1,10 @@
-import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 function Carrinho() {
   return (
     <section className="container h-full d-flex justify-content-between">
       <div className="col-md-7">
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col">Imagem</th>
@@ -53,7 +51,7 @@ function Carrinho() {
       </div>
 
       <aside className="col-md-4 h-100">
-        <table class="table">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col" colSpan={2}>
@@ -63,28 +61,38 @@ function Carrinho() {
           </thead>
           <tbody>
             <div>
-            <div className="col-md-6">
-            <label for="desconto" className="form-label">
-              Codigo de desconto
-            </label>
-            <input type="text" className="form-control" id="desconto" placeholder="Codigo" />
-          </div>
-          <div className="col-md-6">
-          <button className="btn btn-outline-primary btn-small">
-            Verificar
-            </button>
-          </div>
-            <div className="col-md-6">
-            <label for="calculo" className="form-label">
-              Calcule o frete
-            </label>
-            <input type="text" className="form-control" id="calculo" placeholder="CEP" />
-          </div>
-          <div className="col-md-6">
-          <button className="btn btn-outline-primary btn-small">
-            Calcular
-            </button>
-          </div>
+              <div className="col-md-6">
+                <label for="desconto" className="form-label">
+                  Codigo de desconto
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="desconto"
+                  placeholder="Codigo"
+                />
+              </div>
+              <div className="col-md-6">
+                <button className="btn btn-outline-primary btn-small">
+                  Verificar
+                </button>
+              </div>
+              <div className="col-md-6">
+                <label for="calculo" className="form-label">
+                  Calcule o frete
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="calculo"
+                  placeholder="CEP"
+                />
+              </div>
+              <div className="col-md-6">
+                <button className="btn btn-outline-primary btn-small">
+                  Calcular
+                </button>
+              </div>
             </div>
             <tr>
               <td>3 Produtos</td>

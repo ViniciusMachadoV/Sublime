@@ -21,7 +21,7 @@ html [data-theme="spring"] {
   --color-light: #93b259;
   --color-main: #627e3d;
   --color-dark: #364023;
-  --color-darker: #22251f;;
+  --color-darker: #22251f;
 }
 
 html [data-theme="winter"] {
@@ -29,8 +29,7 @@ html [data-theme="winter"] {
   --color-light: #598ab2;
   --color-main: #3d5f7e;
   --color-dark: #232f40;
-  --color-darker: #1f2325;
-
+  --color-darker: #1f2125;
 }
 
 html [data-theme="autumn"] {
@@ -45,7 +44,8 @@ body {
   font-family: var(--font-family-sans);
 }
 
-#root {
+#root,
+.App {
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
