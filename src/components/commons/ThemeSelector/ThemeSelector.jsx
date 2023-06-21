@@ -11,9 +11,9 @@ function ThemeSelector() {
         onChange={(event) => changeTheme(event.target.value)}
         className="form-select"
         aria-label="Trocar tema do site"
-        value={theme}
+        value={theme ?? ""}
       >
-        <option selected hidden disabled>
+        <option hidden disabled>
           Tema
         </option>
         <option value="summer">Summer</option>

@@ -6,11 +6,11 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
+    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 my-4 border-top">
+      <div className="col-md-4 d-flex align-items-center">
         <Logo isSmall />
 
-        <span class="d-block mb-3 mb-md-0 ms-2 text-body-secondary">
+        <span className="d-block mb-3 mb-md-0 ms-2 text-body-secondary">
           © {currentYear} Company, Inc
         </span>
       </div>

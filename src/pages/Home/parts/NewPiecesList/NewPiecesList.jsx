@@ -31,12 +31,12 @@ function NewPiecesList() {
           name="Green Shirt"
           price={5000}
         />
-        <spam className={styles.newPiecesListNoCard}>
+        <span className={styles.newPiecesListNoCard}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, minus
           eaque? Officia exercitationem libero earum repudiandae molestiae dicta
           omnis impedit modi numquam nesciunt adipisci consectetur ducimus est,
           deleniti temporibus delectus!
-        </spam>
+        </span>
         <ProductCard
           image="/assets/productcardimage.jpg"
           name="Green Shirt"
