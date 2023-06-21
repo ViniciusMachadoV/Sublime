@@ -6,13 +6,6 @@ $color-main: #7e5a3d;
 $color-dark: #402f23;
 $color-darker: #25221f;
 
-body {
-  color: var(--color-darker);
-  background-color: var(--color-lighter);
-
-  font-family: var(--font-family-sans);
-}
-
 /*
 
 Lista de parâmetros da função `button-variant`
