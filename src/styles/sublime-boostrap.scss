@@ -77,6 +77,10 @@ a:hover,
   color: $color-dark;
 }
 
+a:focus, .nav-link:focus {
+  color: $color-darker;
+}
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: $color-darker;
