@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Carrinho() {
   return (
     <section className="container h-full d-flex justify-content-between">
@@ -23,6 +24,7 @@ function Carrinho() {
               </th>
               <td>Nome do Produto</td>
               <td>4200 €</td>
+              <button>Remover</button>
             </tr>
             <tr>
               <th scope="row" className="w-25">
