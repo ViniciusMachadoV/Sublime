@@ -8,25 +8,25 @@ function DivaSection() {
           A handcrafted collection for the new season to come
         </span>
         <strong className={`row ${styles.tituloHome}`}>
-          Summer Collection
+          Winter Collection
         </strong>
       </div>
 
       <div className={`col-md-6 ${styles.divaSectionImages}`}>
         <img
           className={styles.imagemCoverHome}
-          src="/assets/cover-1.jpg"
-          alt="Modelo com cabelo curto e óculos de sol preto no rosto olhando na diagonal para baixo, usando uma blusa branca e com um paletó marrom vestido em apenas um dos braços"
+          src="/assets/hunterclosewinter.jpg"
+          alt="Um close no rosto da Hunter mostrando as joias nas mãos."
         />
         <img
           className={styles.horizontalCoverImage}
-          src="/assets/divasection-2.jpg"
-          alt="A maior diva da terra em pé."
+          src="/assets/hunterlayedwinter.jpg"
+          alt="Hunter deitada usando um bodysuit azul."
         />
         <img
           className={styles.verticalCoverImage}
-          src="/assets/divasection-3.jpg"
-          alt="A mulher mais linda do mundo apoiada em uma parede olhando para a câmera serena por saber que é a mais perfeita obra de arte existente"
+          src="/assets/hunterstandwinter.png"
+          alt="A mulher mais linda do mundo em pé um pouco de lado olhando em direção à camera usando um bodysuit azul"
         />
       </div>
     </div>
