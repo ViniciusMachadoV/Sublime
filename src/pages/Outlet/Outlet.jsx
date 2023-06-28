@@ -15,10 +15,12 @@ function Outlet() {
   );
 
   return (
-    <ProductsPage header={<ProductsHeroSection title="Outlet" />}>
+    <ProductsPage
+      header={<ProductsHeroSection title="Outlet" prefixPhoto="outlet" />}
+    >
       <div>
         <span className="fs-5">Oferta acaba em: </span>
-        <span className="fs-4">{<Temporizador/>} minutos</span>
+        <span className="fs-4">{<Temporizador />} minutos</span>
       </div>
 
       {isFetching ? <Loader /> : <ListaProdutos produtos={produtos ?? []} />}
