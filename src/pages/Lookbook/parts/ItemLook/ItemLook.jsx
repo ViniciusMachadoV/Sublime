@@ -1,5 +1,6 @@
+import React from "react";
+
 import estilo from "./ItemLook.module.css";
-import React from 'react';
 
 const ItemLook = ({ image, title }) => {
   return (
