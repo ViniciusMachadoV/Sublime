@@ -1,6 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 
+import { CartContext } from "../../infra/contexts/CartContext";
+
 function Carrinho() {
+  const { cartItems } = useContext(CartContext);
+
   return (
     <section className="container h-full d-flex justify-content-between">
       <div className="col-md-7">
@@ -13,39 +18,19 @@ function Carrinho() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th scope="row" className="w-25">
-                <img
-                  className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
-                  alt="Nome do Produto"
-                />
-              </th>
-              <td>Nome do Produto</td>
-              <td>4200 €</td>
-            </tr>
-            <tr>
-              <th scope="row" className="w-25">
-                <img
-                  className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
-                  alt="Nome do Produto 2"
-                />
-              </th>
-              <td>Nome do Produto 2</td>
-              <td>6300 €</td>
-            </tr>
-            <tr>
-              <th scope="row" className="w-25">
-                <img
-                  className="w-75 img-fluid"
-                  src="/assets/cover-1.jpg"
-                  alt="Nome do Produto 3"
-                />
-              </th>
-              <td>Nome do Produto 3</td>
-              <td>2700 €</td>
-            </tr>
+            {cartItems?.map((item) => (
+              <tr key={item.id}>
+                <th scope="row" className="w-25">
+                  <img
+                    className="w-75 img-fluid"
+                    src={item.image}
+                    alt={item.name}
+                  />
+                </th>
+                <td>{item.name}</td>
+                <td>{item.price} €</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>

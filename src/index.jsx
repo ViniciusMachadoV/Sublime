@@ -4,8 +4,9 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 
-import { SearchContextProvider } from "./infra/contexts/SearchContext";
 import { ThemeContextProvider } from "./infra/contexts/ThemeContext";
+import { SearchContextProvider } from "./infra/contexts/SearchContext";
+import { CartContextProvider } from "./infra/contexts/CartContext";
 
 import "./styles/sublime-boostrap.scss";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
@@ -17,9 +18,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ThemeContextProvider>
     <SearchContextProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <CartContextProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </CartContextProvider>
     </SearchContextProvider>
   </ThemeContextProvider>
 );
