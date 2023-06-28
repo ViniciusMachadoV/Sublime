@@ -31,11 +31,10 @@ function NewPiecesList() {
           name="Green Shirt"
           price={5000}
         />
-        <span className={styles.newPiecesListNoCard}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, minus
-          eaque? Officia exercitationem libero earum repudiandae molestiae dicta
-          omnis impedit modi numquam nesciunt adipisci consectetur ducimus est,
-          deleniti temporibus delectus!
+        <span
+          className={`${styles.newPiecesListNoCardSubtitle} ${styles.newPiecesNoCard}`}
+        >
+          Explore the new pieces of our seasonal luxurious collection
         </span>
         <ProductCard
           image="/assets/productcardimage.jpg"
