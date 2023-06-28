@@ -7,6 +7,8 @@ import App from "./App";
 import { SearchContextProvider } from "./infra/contexts/SearchContext";
 import { ThemeContextProvider } from "./infra/contexts/ThemeContext";
 
+import CartProvider from "./pages/Carrinho/CartContextProvider/CartProvider";
+
 import "./styles/sublime-boostrap.scss";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -18,7 +20,9 @@ root.render(
   <ThemeContextProvider>
     <SearchContextProvider>
       <BrowserRouter>
-        <App />
+        <CartProvider>
+          <App />
+        </CartProvider>
       </BrowserRouter>
     </SearchContextProvider>
   </ThemeContextProvider>

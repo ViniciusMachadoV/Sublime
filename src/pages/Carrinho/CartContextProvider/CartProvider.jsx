@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import AppContext from "./CartContext";
+import CartContext from "./CartContext";
 
-function Provider(props){
+function CartProvider(props){
     const [cartItems, setCartItems] = useState([]);
     const value = {
         cartItems,
         setCartItems
     };
     return (
-        <AppContext.Provider value={value}>
+        <CartContext.Provider value={value}>
             {props}
-        </AppContext.Provider>
+        </CartContext.Provider>
     );
 }
 
-export default Provider;
+export default CartProvider;
