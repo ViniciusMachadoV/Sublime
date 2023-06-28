@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import styles from "./ProductCard.module.css";
-import AppContext from "../../../pages/Carrinho/CartContextProvider/CartContext";
+import CartContext from "../../../pages/Carrinho/CartContextProvider/CartContext";
 
 function ProductCard(props) {
-  const { cartItems, setCartItems } = useContext(AppContext);
+  const { cartItems, setCartItems } = useContext(CartContext);
   const handleAddCart = () => {
     const updatedCartItems = cartItems;
     updatedCartItems.push(props);
+    setCartItems(updatedCartItems);
   };
 
   return (
