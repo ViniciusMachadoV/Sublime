@@ -1,52 +1,26 @@
+.lookbookContainer{
+    position: relative;
+}
 .lookbookGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
     grid-gap: 20px;
+    justify-items: center;
   }
-  .lookItem:nth-child(1) {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-  }
-  
-  .lookItem:nth-child(2) {
-    grid-column: 3;
-    grid-row: 1;
-  }
-  
-  .lookItem:nth-child(3) {
-    grid-column: 3;
-    grid-row: 2;
+.lookItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
   }
   
-  .lookItem:nth-child(5) {
-    grid-column: 1;
-    grid-row: 3;
-    display: none;
-  }
-  
-  .lookItem:nth-child(6) {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  
-  .lookItem:nth-child(7) {
-    grid-column: 3;
-    grid-row: 3;
-  }
-  
-  .lookItem:nth-child(8) {
-    grid-column: 1 / span 2;
-    grid-row: 4;
-  }
-  
-  .lookItem:nth-child(9) {
-    grid-column: 3;
-    grid-row: 4;
-  }
-  
-  .lookItem:nth-child(9) {
-    grid-column: 2;
-    grid-row: 5;
+.lookItem img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
   

@@ -1,9 +1,3 @@
-.lookbookGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 20px;
-  }
   .lookItem:nth-child(1) {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;

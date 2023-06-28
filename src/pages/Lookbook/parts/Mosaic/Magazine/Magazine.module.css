@@ -1,14 +1,11 @@
-.magazine{
-    width: 500px;
-    height: 500px;
-    background: whitesmoke;
-    position: relative;
-}
 .container {
     cursor: pointer;
-    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
     z-index: 1;
     perspective:3000px;
+    /* transform: scale(0.66); */
 }
 .container .book {
     position: relative;
@@ -63,7 +60,7 @@
     font-size: 90px;
 }
 .num-up,.num-down{
-    color: #b28059;
+    color: var(--color-light);
 }
 .cover .num-up{
     position: absolute;
@@ -125,9 +122,6 @@
     background: linear-gradient(0deg,  rgba(240, 234, 228, .2) 0%, rgba(178, 128, 89,.2) 100%), url('/public/assets/lookbookcover2.jpg');
     background-position: 30% 00%;
     filter: brightness(110%);
-}
-.left-side{
-    color: red;
 }
 .left-side h2 span:first-child {
     font-weight: 400;

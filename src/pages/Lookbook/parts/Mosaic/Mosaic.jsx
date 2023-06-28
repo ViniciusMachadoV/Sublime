@@ -1,6 +1,8 @@
 import estilo from "./Mosaic.module.css";
 
 import ItemLook from "./ItemLook/ItemLook";
+import Magazine from "./Magazine/Magazine";
+import Carousel from "./Carousel/Carousel";
 
 const looks = [
   {
@@ -8,24 +10,6 @@ const looks = [
     title: 'Look 1',
     description: 'Descrição do Look 1',
     image: "/assets/lookbook1.jpg"
-  },
-  {
-    id: 2,
-    title: 'Look 2',
-    description: 'Descrição do Look 2',
-    image: "/assets/lookbook2.jpg"
-  },
-  {
-    id: 3,
-    title: 'Look 3',
-    description: 'Descrição do Look 3',
-    image: "/assets/lookbook3.jpg"
-  },
-  {
-    id: 4,
-    title: 'Look 4',
-    description: 'Descrição do Look 4',
-    image: "/assets/lookbook4.jpg"
   },
   {
     id: 5,
@@ -50,17 +34,12 @@ const looks = [
     title: 'Look 8',
     description: 'Descrição do Look 8',
     image: "/assets/lookbook8.jpg"
-  },
-  {
-    id: 9,
-    title: 'Look 9',
-    description: 'Descrição do Look 9',
-    image: "/assets/lookbook9.jpg"
-  },
+  }
 ];
 function Mosaic() {
   return (
     <div className={estilo.lookbookContainer}>
+      <Magazine />
       <div className={estilo.lookbookGrid}>
         {looks.map((look) => (
           <ItemLook key={look.id} image={look.image} title={look.title} />
