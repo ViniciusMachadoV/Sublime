@@ -1,14 +1,15 @@
 import { useContext } from "react";
+
+import { CartContext } from "../../../infra/contexts/CartContext";
+
 import styles from "./ProductCard.module.css";
-import CartContext from "../../../pages/Carrinho/CartContextProvider/CartContext";
 
 function ProductCard(props) {
-  const { cartItems, setCartItems } = useContext(CartContext);
-  const handleAddCart = () => {
-    const updatedCartItems = cartItems;
-    updatedCartItems.push(props);
-    setCartItems(updatedCartItems);
-  };
+  const { addToCard } = useContext(CartContext);
+
+  function handleAddCart() {
+    addToCard(props);
+  }
 
   return (
     <section className={styles.productContainer}>
@@ -18,10 +19,12 @@ function ProductCard(props) {
           src={props.image}
           alt={props.name}
         />
+
         <button className={styles.productCardButton} onClick={handleAddCart}>
           Adicionar ao Carrinho
         </button>
       </div>
+
       <div className={styles.productCardInfo}>
         <strong className={styles.productCardName}>{props.name}</strong>
         <span className={styles.productCardPrice}>{props.price} €</span>

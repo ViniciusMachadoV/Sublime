@@ -43,13 +43,13 @@
       "preco": 489.9
     },
     {
-      "id": 7,
+      "id": 8,
       "nome": "Vestido azul",
       "img": "/assets/produto-11.jpg",
       "preco": 423.2
     },
     {
-      "id": 7,
+      "id": 9,
       "nome": "Jaqueta de Couro",
       "img": "/assets/produto-12.jpg",
       "preco": 652.4
@@ -197,13 +197,13 @@
     {
       "id": 1,
       "title": "Look 1",
-      "description": "Descrição do Look 1",      
+      "description": "Descrição do Look 1",
       "image": "/assets/nossahistoriahorizontalpic.jpg"
     },
     {
       "id": 2,
       "title": "Look 2",
-      "description": "Descrição do Look 2",      
+      "description": "Descrição do Look 2",
       "image": "/assets/nossahistoriahorizontalpic.jpg"
     }
   ]
