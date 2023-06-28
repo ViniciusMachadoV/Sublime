@@ -2,393 +2,195 @@
   "feminine": [
     {
       "id": 1,
-      "nome": "Nome do Produto",
+      "nome": "Conjunto Top e Calça Branco",
       "img": "/assets/product-card-1.jpg",
-      "preco": 4200
+      "preco": 452.9
     },
     {
       "id": 2,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "nome": "Camiseta Listrada",
+      "img": "/assets/produto-4.jpg",
+      "preco": 280.9
     },
     {
       "id": 3,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
+      "nome": "Conjunto Camisa e Calça leve",
+      "img": "/assets/product-card-4.jpg",
+      "preco": 652.4
     },
     {
       "id": 4,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
+      "nome": "Calça Caqui Xadrez",
+      "img": "/assets/produto-1.jpg",
+      "preco": 315.9
     },
     {
       "id": 5,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
+      "nome": "Camisa Verde",
+      "img": "/assets/productcardimage.jpg",
+      "preco": 249.9
     },
     {
       "id": 6,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
+      "nome": "Paletó",
+      "img": "/assets/produto-5.jpg",
+      "preco": 356.2
     },
     {
       "id": 7,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
+      "nome": "Blusa manga longa leve",
+      "img": "/assets/produto-6.jpg",
+      "preco": 489.9
     },
     {
-      "id": 8,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "id": 7,
+      "nome": "Vestido azul",
+      "img": "/assets/produto-11.jpg",
+      "preco": 423.2
     },
     {
-      "id": 9,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 10,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 11,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 12,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 13,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 14,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 15,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 16,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "id": 7,
+      "nome": "Jaqueta de Couro",
+      "img": "/assets/produto-12.jpg",
+      "preco": 652.4
     }
   ],
   "masculine": [
     {
       "id": 1,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
-      "preco": 4200
+      "nome": "Conjunto Blusa e Calça",
+      "img": "/assets/produto-2.jpg",
+      "preco": 653
     },
     {
       "id": 2,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "nome": "Colete Mostarda",
+      "img": "/assets/produto-3.jpg",
+      "preco": 453
     },
     {
       "id": 3,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
+      "nome": "Blusa Jeans Preta",
+      "img": "/assets/produto-8.jpg",
+      "preco": 340.9
     },
     {
       "id": 4,
-      "nome": "Nome do Produto",
+      "nome": "Sobretudo Acolchoado",
       "img": "/assets/product-card-3.jpg",
-      "preco": 4200
+      "preco": 1100
     },
     {
       "id": 5,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
+      "nome": "Calça Caqui Marrom",
+      "img": "/assets/produto-9.jpg",
+      "preco": 420
     },
     {
       "id": 6,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
+      "nome": "Sobretudo Marrom",
+      "img": "/assets/produto-7.jpg",
+      "preco": 950
     },
     {
       "id": 7,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 8,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 9,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 10,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 11,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 12,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 13,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 14,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 15,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 16,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "nome": "Blusa de Frio Creme",
+      "img": "/assets/produto-10.jpg",
+      "preco": 362
     }
   ],
   "bags": [
     {
       "id": 1,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
+      "nome": "Bolsa Rosa",
+      "img": "/assets/produto-13.jpg",
       "preco": 4200
     },
     {
       "id": 2,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "nome": "Bolsa Preta",
+      "img": "/assets/produto-14.jpg",
       "preco": 4200
     },
     {
       "id": 3,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
+      "nome": "Jogo Bolsas Azul e Rosa",
+      "img": "/assets/produto-15.jpg",
       "preco": 4200
     },
     {
       "id": 4,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
+      "nome": "Bolsa Cinza e Preta",
+      "img": "/assets/produto-16.jpg",
       "preco": 4200
     },
     {
       "id": 5,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
+      "nome": "Bolsa Marrom",
+      "img": "/assets/produto-17.jpg",
       "preco": 4200
     },
     {
       "id": 6,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
+      "nome": "Jogo de Bolsas Multicoloridas",
+      "img": "/assets/produto-19.jpg",
       "preco": 4200
     },
     {
       "id": 7,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
+      "nome": "Bolsa Vinho",
+      "img": "/assets/produto-18.jpg",
       "preco": 4200
     },
     {
       "id": 8,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "nome": "Bolsa Ciano",
+      "img": "/assets/produto-22.jpg",
       "preco": 4200
     },
     {
       "id": 9,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
+      "nome": "Bolsas de Couro Multicoloridas",
+      "img": "/assets/produto-21.jpg",
       "preco": 4200
     },
     {
       "id": 10,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 11,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 12,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 13,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 14,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 15,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 16,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
+      "nome": "Bolsa Verde",
+      "img": "/assets/produto-20.jpg",
       "preco": 4200
     }
   ],
   "outlet": [
     {
       "id": 1,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
-      "preco": 4200
+      "nome": "Jaqueta Jeans Preta",
+      "img": "/assets/produto-23.jpg",
+      "preco": 120.9
     },
     {
       "id": 2,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "nome": "Sobretudo Azul",
+      "img": "/assets/produto-24.jpg",
+      "preco": 160.2
     },
     {
       "id": 3,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
+      "nome": "Calça Preta com Listras Brancas",
+      "img": "/assets/produto-25.jpg",
+      "preco": 142.9
     },
     {
       "id": 4,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
+      "nome": "Blusa de Frio Crochê",
+      "img": "/assets/produto-26.jpg",
+      "preco": 210.9
     },
     {
       "id": 5,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 6,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 7,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 8,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 9,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-1.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 10,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 11,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 12,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-3.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 13,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-4.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 14,
-      "nome": "Nome do Produto",
-      "img": "/assets/productcardimage.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 15,
-      "nome": "Nome do Produto",
-      "img": "/assets/product-card-2.jpg",
-      "preco": 4200
-    },
-    {
-      "id": 16,
-      "nome": "Nome do Produto",
-      "img": "/assets/nossahistoriahorizontalpic.jpg",
-      "preco": 4200
+      "nome": "Blazer Branco",
+      "img": "/assets/produto-27.jpg",
+      "preco": 189.9
     }
   ],
   "looks": [
