@@ -390,5 +390,19 @@
       "img": "/assets/nossahistoriahorizontalpic.jpg",
       "preco": 4200
     }
+  ],
+  "looks": [
+    {
+      "id": 1,
+      "title": "Look 1",
+      "description": "Descrição do Look 1",      
+      "image": "/assets/nossahistoriahorizontalpic.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Look 2",
+      "description": "Descrição do Look 2",      
+      "image": "/assets/nossahistoriahorizontalpic.jpg"
+    }
   ]
 }
