@@ -10,10 +10,10 @@ html {
 
 html [data-theme="summer"] {
   --color-lighter: #fffcfd;
-  --color-light: #da6491;
-  --color-main: #ac2458;
-  --color-dark: #611432;
-  --color-darker: #2b151d;
+  --color-light: #da647e;
+  --color-main: #ac243b;
+  --color-dark: #63162d;
+  --color-darker: #241416;
 }
 
 html [data-theme="spring"] {
