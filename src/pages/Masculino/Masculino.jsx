@@ -14,7 +14,9 @@ function Masculino() {
   );
 
   return (
-    <ProductsPage header={<ProductsHeroSection title="Masculino" />}>
+    <ProductsPage
+      header={<ProductsHeroSection title="Masculino" prefixPhoto="masculino" />}
+    >
       {isFetching ? <Loader /> : <ListaProdutos produtos={produtos ?? []} />}
     </ProductsPage>
   );

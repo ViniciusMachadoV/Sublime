@@ -1,20 +1,52 @@
+/**
+* Sistema de Grid com número colunas auto ajustáveis mas com número de colunas máximas feito baseado no seguinte post:
+* https://css-tricks.com/an-auto-filling-css-grid-with-max-columns/
+*/
+
 .newPiecesList {
+  --cardWidth: 200px;
+
+  --grid-layout-gap: 10px;
+  --grid-column-count: calc(4 + 1);
+  --grid-item--min-width: calc(var(--cardWidth) + 70px);
+
+  /**
+   * Calculated values.
+   */
+  --gap-count: calc(var(--grid-column-count) - 1);
+  --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+  --grid-item--max-width: calc(
+    (100% - var(--total-gap-width)) / var(--grid-column-count)
+  );
+
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.25rem;
-  justify-items: center;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
+  );
+  grid-gap: var(--grid-layout-gap);
+
   align-items: center;
+  justify-items: center;
 }
 
 .newPiecesListNoCard {
-    width: 300px;
-    color: var(--color-dark);
-    font-family: var(--font-family-sans);
+  width: var(--cardWidth);
+  font-family: var(--font-family-sans);
 }
 
+.newPiecesListNoCardTitle {
+  font-size: 3.2rem;
+  color: var(--color-dark);
+  font-family: var(--font-family-serif);
+}
 
-
-.newPiecesListNoCardTitle{
-    font-size: 50px;
-    font-family: var(--font-family-serif);
+.newPiecesListNoCardSubtitle {
+  max-width: 20ch;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--color-dark);
+  text-transform: uppercase;
 }

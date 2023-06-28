@@ -1,41 +1,41 @@
 import estilo from "./Mosaic.module.css";
 
-import ItemLook from "./ItemLook/ItemLook";
-import Magazine from "./Magazine/Magazine";
-import Carousel from "./Carousel/Carousel";
+import ItemLook from "../ItemLook/ItemLook";
+import Magazine from "../Magazine/Magazine";
 
 const looks = [
   {
     id: 1,
-    title: 'Look 1',
-    description: 'Descrição do Look 1',
-    image: "/assets/lookbook1.jpg"
+    title: "Look 1",
+    description: "Descrição do Look 1",
+    image: "/assets/lookbook1.jpg",
   },
   {
     id: 5,
-    title: 'Look 5',
-    description: 'Descrição do Look 5',
-    image: "/assets/lookbook5.jpg"
+    title: "Look 5",
+    description: "Descrição do Look 5",
+    image: "/assets/lookbook5.jpg",
   },
   {
     id: 6,
-    title: 'Look 6',
-    description: 'Descrição do Look 6',
-    image: "/assets/lookbook6.jpg"
+    title: "Look 6",
+    description: "Descrição do Look 6",
+    image: "/assets/lookbook6.jpg",
   },
   {
     id: 7,
-    title: 'Look 7',
-    description: 'Descrição do Look 7',
-    image: "/assets/lookbook7.jpg"
+    title: "Look 7",
+    description: "Descrição do Look 7",
+    image: "/assets/lookbook7.jpg",
   },
   {
     id: 8,
-    title: 'Look 8',
-    description: 'Descrição do Look 8',
-    image: "/assets/lookbook8.jpg"
-  }
+    title: "Look 8",
+    description: "Descrição do Look 8",
+    image: "/assets/lookbook8.jpg",
+  },
 ];
+
 function Mosaic() {
   return (
     <div className={estilo.lookbookContainer}>

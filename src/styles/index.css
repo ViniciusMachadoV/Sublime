@@ -9,27 +9,27 @@ html {
 }
 
 html [data-theme="summer"] {
-  --color-lighter: #f0dede;
-  --color-light: #b25959;
-  --color-main: #7e3d3d;
-  --color-dark: #402323;
-  --color-darker: #251f1f;
+  --color-lighter: #fffcfd;
+  --color-light: #da647e;
+  --color-main: #ac243b;
+  --color-dark: #63162d;
+  --color-darker: #241416;
 }
 
 html [data-theme="spring"] {
-  --color-lighter: #e9f1e2;
-  --color-light: #93b259;
-  --color-main: #627e3d;
-  --color-dark: #364023;
-  --color-darker: #22251f;
+  --color-lighter: #fbfffd;
+  --color-light: #60da9b;
+  --color-main: #179654;
+  --color-dark: #1e6440;
+  --color-darker: #1c3a2b;
 }
 
 html [data-theme="winter"] {
-  --color-lighter: #e0eaf1;
-  --color-light: #598ab2;
-  --color-main: #3d5f7e;
-  --color-dark: #232f40;
-  --color-darker: #1f2125;
+  --color-lighter: #f9faff;
+  --color-light: #6577dd;
+  --color-main: #4357c5;
+  --color-dark: #2d3770;
+  --color-darker: #24273d;
 }
 
 html [data-theme="autumn"] {

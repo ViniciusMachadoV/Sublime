@@ -14,7 +14,9 @@ function Bolsas() {
   );
 
   return (
-    <ProductsPage header={<ProductsHeroSection title="Bolsas" />}>
+    <ProductsPage
+      header={<ProductsHeroSection title="Bolsas" prefixPhoto="bolsas" />}
+    >
       {isFetching ? <Loader /> : <ListaProdutos produtos={produtos ?? []} />}
     </ProductsPage>
   );

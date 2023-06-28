@@ -62,7 +62,7 @@ function Carrinho() {
           <tbody>
             <div>
               <div className="col-md-6">
-                <label for="desconto" className="form-label">
+                <label htmlFor="desconto" className="form-label">
                   Codigo de desconto
                 </label>
                 <input
@@ -78,7 +78,7 @@ function Carrinho() {
                 </button>
               </div>
               <div className="col-md-6">
-                <label for="calculo" className="form-label">
+                <label htmlFor="calculo" className="form-label">
                   Calcule o frete
                 </label>
                 <input

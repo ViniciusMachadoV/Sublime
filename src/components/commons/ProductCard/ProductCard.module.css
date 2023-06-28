@@ -65,6 +65,8 @@
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.12rem;
+  max-width: 18ch;
+  max-inline-size: 18ch;
 }
 
 .productCardPrice {
