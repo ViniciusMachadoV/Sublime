@@ -9,7 +9,7 @@ function CartProvider(props){
     };
     return (
         <CartContext.Provider value={value}>
-            {props}
+            {props.children}
         </CartContext.Provider>
     );
 }
